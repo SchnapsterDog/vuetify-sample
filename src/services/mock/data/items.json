@@ -4,125 +4,125 @@
       "name": "Loki",
       "species": "Dog",
       "gender": "Male",
-      "weight (lb)": "124.4",
-      "age (months)": "18",
-      "friendly with other animals": "Yes"
+      "weight": "124.4",
+      "age": "18",
+      "friendly": "Yes"
     },
     {
       "id": 2,  
       "name": "Bully",
       "species": "Dog",
       "gender": "Male",
-      "weight (lb)": "100.2",
-      "age (months)": "22",
-      "friendly with other animals": "Yes"
+      "weight": "100.2",
+      "age": "22",
+      "friendly": "Yes"
     },
     {
       "id": 3,  
       "name": "Jekky",
       "species": "Dog",
       "gender": "Female",
-      "weight (lb)": "100.4",
-      "age (months)": "44",
-      "friendly with other animals": "Yes"
+      "weight": "100.4",
+      "age": "44",
+      "friendly": "Yes"
     },
     {
       "id": 4,  
       "name": "Nala",
       "species": "Cat",
       "gender": "Female",
-      "weight (lb)": "55.4",
-      "age (months)": "48",
-      "friendly with other animals": "No"
+      "weight": "55.4",
+      "age": "48",
+      "friendly": "No"
     },
     {
       "id": 5,  
       "name": "Wendy",
       "species": "Cat",
       "gender": "Male",
-      "weight (lb)": "78.4",
-      "age (months)": "10",
-      "friendly with other animals": "Yes"
+      "weight": "78.4",
+      "age": "10",
+      "friendly": "Yes"
     },
     {
       "id": 6,  
       "name": "Bu",
       "species": "Dog",
       "gender": "Male",
-      "weight (lb)": "111.1",
-      "age (months)": "38",
-      "friendly with other animals": "Yes"
+      "weight": "111.1",
+      "age": "38",
+      "friendly": "Yes"
     },
     {
       "id": 7,  
       "name": "Mini",
       "species": "Cat",
       "gender": "Female",
-      "weight (lb)": "24.4",
-      "age (months)": "5",
-      "friendly with other animals": "Yes"
+      "weight": "24.4",
+      "age": "5",
+      "friendly": "Yes"
     },
     {
       "id": 8,  
       "name": "Fritzi",
       "species": "Cat",
       "gender": "Male",
-      "weight (lb)": "54.3",
-      "age (months)": "19",
-      "friendly with other animals": "No"
+      "weight": "54.3",
+      "age": "19",
+      "friendly": "No"
     },
     {
       "id": 9,  
       "name": "Mickey",
       "species": "Dog",
       "gender": "Male",
-      "weight (lb)": "100.5",
-      "age (months)": "58",
-      "friendly with other animals": "Yes"
+      "weight": "100.5",
+      "age": "58",
+      "friendly": "Yes"
     },
     {
       "id": 10,  
       "name": "Freya",
       "species": "Dog",
       "gender": "Female",
-      "weight (lb)": "87.4",
-      "age (months)": "37",
-      "friendly with other animals": "Yes"
+      "weight": "87.4",
+      "age": "37",
+      "friendly": "Yes"
     },
     {
       "id": 11,  
       "name": "Thor",
       "species": "Dog",
       "gender": "Male",
-      "weight (lb)": "24.4",
-      "age (months)": "22",
-      "friendly with other animals": "Yes"
+      "weight": "24.4",
+      "age": "22",
+      "friendly": "Yes"
     },
     {
       "id": 12,  
       "name": "Nora",
       "species": "Cat",
       "gender": "Female",
-      "weight (lb)": "14.4",
-      "age (months)": "87",
-      "friendly with other animals": "Yes"
+      "weight": "14.4",
+      "age": "87",
+      "friendly": "Yes"
     },
     {
       "id": 13,  
       "name": "Gerd",
       "species": "Dog",
       "gender": "Male",
-      "weight (lb)": "134.4",
-      "age (months)": "68",
-      "friendly with other animals": "Yes"
+      "weight": "134.4",
+      "age": "68",
+      "friendly": "Yes"
     },
     {
       "id": 14,  
       "name": "Joe",
       "species": "Dog",
       "gender": "Male",
-      "weight (lb)": "114.4",
-      "age (months)": "78",
-      "friendly with other animals": "Yes"
+      "weight": "114.4",
+      "age": "78",
+      "friendly": "Yes"
     }
   ]
