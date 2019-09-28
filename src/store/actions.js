@@ -6,6 +6,9 @@ export default {
       .fetchItems()
       .then(items => commit('setItems', items))
   },
+  hideNavigation({commit}) {
+    commit('setDrawer');
+  },
   updateFilter( {commit}, input) {
     commit('setFilter', input);
   },

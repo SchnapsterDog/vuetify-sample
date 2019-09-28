@@ -1,6 +1,5 @@
 export default {
-  search: '',
-  sortedColumns: [],
+  drawer: null,
   headers: [
     { text: 'Name', value: 'name'},
     { text: 'Species', value: 'species' },
@@ -9,5 +8,7 @@ export default {
     { text: 'Age (months)', value: 'age' },
     { text: 'Friendly with other animals', value: 'friendly' },
   ],
-  items: []
+  items: [],
+  search: '',
+  sortedColumns: []
 }

@@ -1,4 +1,7 @@
 export default {
+  setDrawer(state) {
+    state.drawer = ! state.drawer;
+  },
   setFilter (state, input) {
     state.search = input;
   },  
