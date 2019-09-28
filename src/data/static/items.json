@@ -1,0 +1,128 @@
+ [
+    {
+      "id": 1,  
+      "name": "Loki",
+      "species": "Dog",
+      "gender": "Male",
+      "weight": "124.4",
+      "age": "18",
+      "friendly": "Yes"
+    },
+    {
+      "id": 2,  
+      "name": "Bully",
+      "species": "Dog",
+      "gender": "Male",
+      "weight": "100.2",
+      "age": "22",
+      "friendly": "Yes"
+    },
+    {
+      "id": 3,  
+      "name": "Jekky",
+      "species": "Dog",
+      "gender": "Female",
+      "weight": "100.4",
+      "age": "44",
+      "friendly": "Yes"
+    },
+    {
+      "id": 4,  
+      "name": "Nala",
+      "species": "Cat",
+      "gender": "Female",
+      "weight": "55.4",
+      "age": "48",
+      "friendly": "No"
+    },
+    {
+      "id": 5,  
+      "name": "Wendy",
+      "species": "Cat",
+      "gender": "Male",
+      "weight": "78.4",
+      "age": "10",
+      "friendly": "Yes"
+    },
+    {
+      "id": 6,  
+      "name": "Bu",
+      "species": "Dog",
+      "gender": "Male",
+      "weight": "111.1",
+      "age": "38",
+      "friendly": "Yes"
+    },
+    {
+      "id": 7,  
+      "name": "Mini",
+      "species": "Cat",
+      "gender": "Female",
+      "weight": "24.4",
+      "age": "5",
+      "friendly": "Yes"
+    },
+    {
+      "id": 8,  
+      "name": "Fritzi",
+      "species": "Cat",
+      "gender": "Male",
+      "weight": "54.3",
+      "age": "19",
+      "friendly": "No"
+    },
+    {
+      "id": 9,  
+      "name": "Mickey",
+      "species": "Dog",
+      "gender": "Male",
+      "weight": "100.5",
+      "age": "58",
+      "friendly": "Yes"
+    },
+    {
+      "id": 10,  
+      "name": "Freya",
+      "species": "Dog",
+      "gender": "Female",
+      "weight": "87.4",
+      "age": "37",
+      "friendly": "Yes"
+    },
+    {
+      "id": 11,  
+      "name": "Thor",
+      "species": "Dog",
+      "gender": "Male",
+      "weight": "24.4",
+      "age": "22",
+      "friendly": "Yes"
+    },
+    {
+      "id": 12,  
+      "name": "Nora",
+      "species": "Cat",
+      "gender": "Female",
+      "weight": "14.4",
+      "age": "87",
+      "friendly": "Yes"
+    },
+    {
+      "id": 13,  
+      "name": "Gerd",
+      "species": "Dog",
+      "gender": "Male",
+      "weight": "134.4",
+      "age": "68",
+      "friendly": "Yes"
+    },
+    {
+      "id": 14,  
+      "name": "Joe",
+      "species": "Dog",
+      "gender": "Male",
+      "weight": "114.4",
+      "age": "78",
+      "friendly": "Yes"
+    }
+  ]
