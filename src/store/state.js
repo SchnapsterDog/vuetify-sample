@@ -1,6 +1,6 @@
 export default {
   search: '',
-  tableOptions: [],
+  sortedColumns: [],
   headers: [
     { text: 'Name', value: 'name'},
     { text: 'Species', value: 'species' },

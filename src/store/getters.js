@@ -1,6 +1,6 @@
 export default {
-  sortedBy: state => state.tableOptions,
-  search: state => state.search,
   headers: state => state.headers,
   items: state => state.items,
+  sortedBy: state => state.sortedColumns,
+  search: state => state.search
 }

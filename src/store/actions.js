@@ -1,19 +1,16 @@
 import client from 'api-client'
 
 export default {
-  updateFilter( {commit}, input) {
-    commit('updateFilter', input);
-  },
-  updateTableOptions ( {commit}, options) {
-    commit('updateTableOptions', options.sortBy);
-  },
-  fetchItems ({ commit }) {
+  fetchItems ({commit}) {
     return client
       .fetchItems()
       .then(items => commit('setItems', items))
   },
-  uploadItems({ commit }, items) {
-    commit('setItems', items);
+  updateFilter( {commit}, input) {
+    commit('setFilter', input);
+  },
+  updateSortedColumns ({commit}, options) {
+    commit('setSortedColumns', options.sortBy);
   }
 }
 
