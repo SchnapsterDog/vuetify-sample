@@ -14,6 +14,9 @@ export default {
   },
   updateSortedColumns ({commit}, options) {
     commit('setSortedColumns', options.sortBy);
-  }
+  },
+  updateSelectedItem({commit}, item) {
+    commit('setSelectedItem', item);
+  } 
 }
 

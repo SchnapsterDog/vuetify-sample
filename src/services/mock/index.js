@@ -1,4 +1,4 @@
-import items from './data/items' // import static data
+import items from '../../data/static/items' // import static data
 
 const fetch = (mockData, time = 0) => {
   return new Promise((resolve) => {

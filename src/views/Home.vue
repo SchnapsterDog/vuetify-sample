@@ -28,6 +28,7 @@
 </template>
 <script>
 import { mapGetters } from 'vuex'
+import routes from '../data/constants/routes';
 
 export default {
   data() {
@@ -53,15 +54,20 @@ export default {
       });
     },
     select(row) { // select row and redirect to certain page with row details
-      const route = '/pet';
-      this.$router.push(`${route}/${row.id}`);
+      this.$store.dispatch('updateSelectedItem', row);
+      this.$router.push(`${routes.PET_URL}/${row.id}`);
     },
     updateSortedColumns(columns) { // update sorted
       this.$store.dispatch('updateSortedColumns', columns);
     },
-    updateFilter(input) {
+    updateFilter(input) { // update search filter
       this.$store.dispatch('updateFilter', input);
     }
   }
 }
 </script>
+<style lang="scss">
+.row td {
+  cursor: pointer;
+}
+</style>
