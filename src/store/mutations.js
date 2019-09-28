@@ -8,6 +8,9 @@ export default {
   setItems (state, items) {
     state.items = items
   },
+  setSelectedItem (state, item) {
+    state.selectedItem = item;
+  },
   setSortedColumns (state, columns) {
     state.sortedColumns = columns;
   }

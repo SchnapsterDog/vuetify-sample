@@ -10,5 +10,6 @@ export default {
   ],
   items: [],
   search: '',
+  selectedItem: [],
   sortedColumns: []
 }
