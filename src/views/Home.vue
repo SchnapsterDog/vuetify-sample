@@ -20,6 +20,8 @@
       @click:row="select"
       @update:options="updateSortedColumns"
       multi-sort
+      no-data-text="Loading, please wait ..."
+      class="elevation-1 my-data-table"
     >    
     </v-data-table>
   </v-card>
