@@ -21,7 +21,7 @@
       @update:options="updateSortedColumns"
       multi-sort
       no-data-text="Loading, please wait ..."
-      class="elevation-1 my-data-table"
+      class="custom-data-table"
     >    
     </v-data-table>
   </v-card>
@@ -66,8 +66,8 @@ export default {
   }
 }
 </script>
-<style lang="scss">
-.row td {
+<style lang="scss" scoped>
+.custom-data-table {
   cursor: pointer;
 }
 </style>
