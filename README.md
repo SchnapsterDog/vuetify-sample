@@ -39,6 +39,7 @@ Dont modify vue.config.json file. There, we are telling the application to use t
 
 ### Application Structure
 
+```
 src
 ├── assets
 │   ├── img
@@ -76,35 +77,39 @@ src
 ├── App.vue
 ├── main.js
 └── router.js
-
+```
 
 ### Structure Described:
 
 1. Assets folder contains logo image in .png and .svg format, and two images neeed for application, inside img folder.
 
+```
 ── assets
    ├── img
    │   ├── cat.jpeg
    │    └── dog.jpg
    ├── logo.png
    └── logo.svg
+```
 
 2. Components folder contains four Vue components, which represent the skeleton of the entire application. ApplicationBar contain vuetify components need for header, NavigationDrawer that is sidebar component, AppFooter is the footer and AppContent is the core component for Views, which contain <router-view />.
 
+```
 ── components
    ├── AppContent.vue
    ├── AppFooter.vue
    ├── ApplicationBar.vue
    └── NavigationDrawer.vue
-
+```
 3. Data folder contains two subfolders: constants and static. In constants, you could find Endpoints, and in static subfolder, there is items.json, which represents mock-up data needed for our fake API call.
 
+```
 ── data
    ├── constants
    │   └── routes.js
    └── static 
        └── items.json
-
+```
 4. Plugins folder contains vuetify.js config file, where developers could play(add/remove) with the options given by Vuetify Framework. For example, we can simple change theme of our Application by setting the dark option to false.
 
 ```json
@@ -115,12 +120,13 @@ theme: {
   
 5. Services folder contains mock and server subfolders, which are responsible for the API calls. Depend on the .env setting (mock or server), we can easy use fake or real API call, in order to fetch the data and show it to the end-user. By defult, Application fetch data from local storage. 
 
+```
 ── services
    ├── mock
    │   └── index.js
    └── server
        └── index.js
-
+```
 6. Store folder contains six files, that together unify the Vuex store. Main point is index.js, where we import actions, muttations, getters, state and storage. Inside this file, we import external vuex-persistedstate library, in order to persist table and its options. Inside storage.js we import js-cookies external library, that is used for storing the vuex state as cookies. If we simply want to delete cookies and using them no more, we set expires value to 0.
 
 ```js
@@ -132,9 +138,14 @@ export default  {
 7. Views folder contains Home.vue and Pet.vue which run inside <router-view /> as views.
 
 - Home view contains vuetify vue-data-table where we bind data comes from vuex store. 
+
+```
 I On <v-text-field> component we simple use: 
+
 a) :value=“sarch“ as input (not v-model in order to prevent using vue-warning)
-b) @input event which we bind to updateFilter function. 
+b) @input event which we bind to updateFilter function.
+```
+
 ```html
 <v-text-field
   :value="search"
@@ -146,6 +157,7 @@ b) @input event which we bind to updateFilter function.
 }
 ```
 
+```
 II On <v-data-table> we use:
 a) :headers as headers of the table
 b) :items as table rows which come from json file, and are stored inside vuex store.
@@ -155,7 +167,7 @@ e) @click:row event for selection of certain row
 f) @update:options event to update sorted columns inside vuex store
 g) multi-sort set to true
 h) no-data-text prop (to show text during loading data from API call)
-
+```
 
 ```html
 <v-data-table
@@ -213,7 +225,30 @@ The structure of this component is follow:
   </v-app>
 ```
 
-9. main.js file is the enter point of the application. Inside we init the Vue instance, import router, vuex store and vuetify framework, and render the entire applcation through App.vue component.
+9. Main.js file is the enter point of the application. Inside we init the Vue instance, import router, vuex store and vuetify framework, and render the entire applcation through App.vue component.
 
-10. router.js
+```js
+new Vue({
+  router,
+  store,
+  vuetify,
+  render: h => h(App)
+}).$mount('#app')
+```
+
+10. Router.js contains the Views routes of the Application.
+
+```js
+routes: [
+  {
+    path: '/',
+    name: 'home',
+    component: () => import('./views/Home.vue')
+  },
+  {
+    path: '/pet/:id',
+    name: 'pet',
+    component: () => import('./views/Pet.vue')
+  }
+]
 ```
