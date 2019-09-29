@@ -4,12 +4,9 @@
       class="fill-height"
       fluid
     >
-      <v-row
-        align="center"
-        justify="center"
-      >
+      <div class="grow">
         <router-view /> 
-      </v-row>
+      </div>
     </v-container>
   </v-content>
 </template>
