@@ -16,10 +16,46 @@
 
       <v-list-item>
         <v-list-item-action>
-          <v-icon>mdi-pets</v-icon>
+          <v-icon>mdi-view-dashboard</v-icon>
         </v-list-item-action>
         <v-list-item-content>
           <v-list-item-title>Pets for Addoption</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
+      <v-list-item>
+        <v-list-item-action>
+          <v-icon>mdi-view-dashboard</v-icon>
+        </v-list-item-action>
+        <v-list-item-content>
+          <v-list-item-title>Lorem</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
+      <v-list-item>
+        <v-list-item-action>
+          <v-icon>mdi-view-dashboard</v-icon>
+        </v-list-item-action>
+        <v-list-item-content>
+          <v-list-item-title>Ipsum</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
+      <v-list-item>
+        <v-list-item-action>
+          <v-icon>mdi-view-dashboard</v-icon>
+        </v-list-item-action>
+        <v-list-item-content>
+          <v-list-item-title>Dymmy Data</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
+      <v-list-item>
+        <v-list-item-action>
+          <v-icon>mdi-view-dashboard</v-icon>
+        </v-list-item-action>
+        <v-list-item-content>
+          <v-list-item-title>Sample</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
       
