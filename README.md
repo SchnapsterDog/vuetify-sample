@@ -102,7 +102,11 @@ src
    └── logo.svg
 ```
 
-2. Components folder contains four Vue components, which represent the skeleton of the entire application. ApplicationBar contain vuetify components need for header, NavigationDrawer that is sidebar component, AppFooter is the footer and AppContent is the core component for Views, which contain <router-view />.
+2. Components folder contains four Vue components, which represent the skeleton of the entire application. ApplicationBar contain vuetify components need for header, NavigationDrawer that is sidebar component, AppFooter is the footer and AppContent is the core component for Views, which contains 
+```
+```html
+<router-view />.
+```
 
 ```
 ── components
