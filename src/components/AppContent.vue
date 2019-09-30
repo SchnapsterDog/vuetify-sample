@@ -8,7 +8,10 @@
       align="center"	
       justify="center"	
     >	
-      <router-view /> 	      
+      <v-col 
+        cols="12">
+        <router-view />
+      </v-col> 	      
     </v-row>
     </v-container>
   </v-content>
