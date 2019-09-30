@@ -12,6 +12,16 @@ Demo is uploaded on my server. Check this out:
 
 https://vuetify.theflexiseo.com
 
+### Docker
+
+Docker URL: https://hub.docker.com/r/schnapsterdog/vuetify-sample
+
+Run the follow command to pull an image:
+
+```
+docker pull schnapsterdog/vuetify-sample
+```
+
 ## Requirements
 
 - App run inside a docker container
